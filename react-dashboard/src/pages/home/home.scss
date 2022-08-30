@@ -1,6 +1,7 @@
 .home{
-    background-color: rebeccapurple;
-    .title {
-        color: white
+    display: flex;
+    
+    .homeContainer{
+        flex: 6; //flex determines the ratio of size. currently the side bar is 1 and home container is 2 so 1:2 ratio
     }
 }
